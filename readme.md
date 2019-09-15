@@ -1,5 +1,7 @@
 
 
+https://janus.conf.meetecho.com/videoroomtest.html
+https://janus.conf.meetecho.com/devicetest.html
 
 
 --1 установка виртуальной веб камеры
