@@ -21,3 +21,15 @@ time.sleep(10)
 driver.find_element_by_id("start").click()
 time.sleep(2)
 driver.quit()
+
+'''
+https://10.219.144.39/videoroomtest.html
+
+driver
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+https://sites.google.com/a/chromium.org/chromedriver/capabilities
+https://peter.sh/experiments/chromium-command-line-switches/
+
+https://github.com/mozilla/geckodriver/releases
+
+'''
