@@ -20,9 +20,9 @@ sudo modprobe v4l2loopback
 
 ls /dev/video*
 
-wget https://yadi.sk/d/dTLrFJAfhNvqow/video.mp4
+git clone https://github.com/MrVictorBro/webcam.git
 
-ffmpeg -re -i video.mp4 -threads 0 -f v4l2 /dev/video0
+ffmpeg -re -i webcam/video.mp4 -threads 0 -f v4l2 /dev/video0
 
 --2 установка драйвера chome
 https://chromedriver.chromium.org/downloads
@@ -44,6 +44,8 @@ sudo apt-get -y update
 sudo apt-get -y install google-chrome-stable
 
 
+--add ssh
+sudo apt-get install openssh-server -y
 
 
 
