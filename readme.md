@@ -8,6 +8,9 @@ https://janus.conf.meetecho.com/devicetest.html
 --Аналог Splitcam в Linux
 https://www.dr.arut.ru/analog-splitcam-v-linux/
 
+sudo apt install git
+sudo apt install ffmpeg
+
 git clone https://github.com/umlaeute/v4l2loopback.git
 cd v4l2loopback
 sudo make
@@ -17,7 +20,7 @@ sudo modprobe v4l2loopback
 
 ls /dev/video*
 
-wget https://yadi.sk/d/dTLrFJAfhNvqow
+wget https://yadi.sk/d/dTLrFJAfhNvqow/video.mp4
 
 ffmpeg -re -i video.mp4 -threads 0 -f v4l2 /dev/video0
 
